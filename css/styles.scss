@@ -1,3 +1,4 @@
+$color-teal: #17a2b8;
 $color-primary: #3046c5;
 $color-secondary: #5637dd;
 $color-pale: #cec8ff;
@@ -48,4 +49,19 @@ header {
 
 .carousel-caption {
     background-color: $color-black-transparent;
+}
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: #fff;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: #fff;
+    }
+
 }
